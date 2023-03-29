@@ -1,7 +1,17 @@
 site_name: upvideo.io docs
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: assets/logo.png
   palette:
     scheme: default
-    primary: black
-    accent: blue
+    primary: white
+    accent: black
+markdown_extensions:
+  - md_in_html
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+extra:
+  homepage: https://upvideo.io
